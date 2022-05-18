@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProgressBarPlaygroundComponent implements OnInit {
 
-  code:string=`<cen-progress-bar [progress]="50">
+  code:string=`<cen-progress-bar [progress]="50" [color]="'#ff0040'">
 </cen-progress-bar>`;
 
   constructor() { }
