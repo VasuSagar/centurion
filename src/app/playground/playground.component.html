@@ -1,0 +1,10 @@
+<ol>
+    <li>
+        <a (click)="changePlayground(Playgrounds.Progressbar)" style="cursor: pointer;">Progressbar</a>
+    </li>
+</ol>
+
+<!-- Progressbar playground -->
+<ng-container *ngIf="selectedPlayground===Playgrounds.Progressbar">
+    <app-progress-bar-playground></app-progress-bar-playground>
+</ng-container>
